@@ -24,6 +24,7 @@ public class Vehicle {
 
     @Column(name = "deleted")
     private String deleted;
+    
 
     public Long getId() {
         return id;
